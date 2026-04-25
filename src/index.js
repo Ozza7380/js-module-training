@@ -1,7 +1,8 @@
-import { add, sub } from './math.js';
-import log from './logger.js';
+import { sub } from '../math.js';
+import log from '../logger.js';
 import config from './config.js';
 import { count, increment } from './counter.js';
+import { add } from '../utils/index.js';
 
 if (true) {
     const module = await import('./lazy.js');
