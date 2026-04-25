@@ -1,6 +1,6 @@
-const { add, sub } = require('./math');
-const log = require('./logger');
-const config = require('./config');
+import { add, sub } from './math.js';
+import log from './logger.js';
+import config from './config.js';
 
 log(config.appName);
 log(add(2, 3));
